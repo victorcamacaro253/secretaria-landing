@@ -1,0 +1,124 @@
+.wp-custom-header img{
+    height: 50%;
+    width: 100%;
+}
+
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff !important;
+    background-color: #3498db !important;
+    border: 2px solid #2980b9 !important;
+    border-radius: 50% !important;
+    padding: 30px !important;
+    
+   
+
+}
+
+.owl-prev{
+    left: 10px;
+    
+}
+.owl-next{
+    right: 10px;
+}
+
+.owl-prev:hover,.owl-next:hover{
+background-color: #fff !important;
+color: black !important;
+border: none !important;
+}
+
+.owl-dots{
+text-align: center !important;
+
+}
+.owl-dot{
+    display: inline-block;
+    margin: 0 5px !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 40% !important;
+    background-color: #3498db !important;
+}
+.owl-dot.active{
+    background-color: #2980b9 !important;
+}
+.item{
+    position: relative;
+    height: 400px !important;
+    border-radius:15px !important ;
+}
+.content-overlay {
+position: absolute;
+top: 240px;
+left: 0;
+width: 100%;
+height: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para superponer */
+color: #fff; /* Color del texto */
+opacity: 1;
+transition: opacity 0.3s ease;
+}
+
+.item:hover .content-overlay {
+opacity: 1;
+}
+
+.content {
+text-align: center;
+}
+
+.content h3 {
+margin-bottom: 10px;
+}
+
+.btn {
+margin-top: 10px;
+}
+img{
+height: 400px;
+}
+
+
+.site-info{
+    background-color: #333333;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #888888;
+}
+.site-info a, .site-info a:hover {
+    color: #cccccc;
+}
+
+.site-info .copyright .theme-link, .site-info .copyright .privacy-link, .site-info .copyright .author-link, .site-info .copyright .wp-link, .site-info .copyright .custom-content {
+    display: inline-block;
+    padding-right: 8px;
+    margin-bottom: 8px;
+}
+
+.site-info .social-profiles, .site-info .copyright {
+    margin-bottom: 12px;
+    text-align: center;
+}
+.social-profiles ul {
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 900px) {
+    img{
+        width: 100%;
+    }
+
+}
