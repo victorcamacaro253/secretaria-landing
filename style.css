@@ -1,0 +1,37 @@
+.wp-custom-header img{
+    height: 50%;
+    width: 100%;
+}
+
+.footer{
+    margin-top: auto ;
+}
+
+.site-info{
+    background-color: #333333;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #888888;
+}
+.site-info a, .site-info a:hover {
+    color: #cccccc;
+}
+
+.site-info .copyright .theme-link, .site-info .copyright .privacy-link, .site-info .copyright .author-link, .site-info .copyright .wp-link, .site-info .copyright .custom-content {
+    display: inline-block;
+    padding-right: 8px;
+    margin-bottom: 8px;
+}
+
+.site-info .social-profiles, .site-info .copyright {
+    margin-bottom: 12px;
+    text-align: center;
+}
+.social-profiles ul {
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
